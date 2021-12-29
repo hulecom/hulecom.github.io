@@ -1,6 +1,8 @@
         <footer>
-            {{ if not .IsHome}}
-              <h6>Last update: {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</h6>
+            {{ if not .IsHome }}
+              {{ if not (isset .Params "authors") }}
+                <h6>Last update: {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</h6>
+              {{ end }}
             {{ end }}
 
             <p class="copyright text-muted">{{ .Site.Params.copyright | default "&copy; 2021 Hugo Lecomte. Powered by [Hugo](https://gohugo.io) and [Minimal](https://github.com/calintat/minimal)." | markdownify }}</p>

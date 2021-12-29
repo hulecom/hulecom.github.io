@@ -7,11 +7,6 @@ page abstract avec pdf pour les posters
 
 Page presse avec l'article EOS dans recherche pour l'instant. A voir
 
-Amélioration potentielle:
-Arborescence avec préprint, et un dossier par an? si ca marche
-potentiellement remove la date de last update des pages abstract
-ajout google analytics https://gideonwolfe.com/posts/sysadmin/hugo/hugogoogleanalytics/
-
 readme github (voir tyler)
 update researchgate
 

@@ -6,7 +6,15 @@
       <h2>{{ .Title }}</h2>
     </div>
 
-    {{ range .Paginator.Pages.ByDate.Reverse }} {{ partial "list-item" . }} {{ end }}
+    {{ range (.Paginator.Pages.GroupByDate "2006").Reverse}}
+      {{ range first 1 .Pages}}
+        <h3><b>{{ .Date.Format (.Site.Params.dateFormat | default "2006") }}</b></h3>
+      {{ end }}
+
+      {{ range .Pages.ByDate.Reverse }}
+        {{ partial "list-item" . }}
+      {{ end }}
+    {{ end }}
 
 </main>
 
