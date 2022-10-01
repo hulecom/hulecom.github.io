@@ -1,0 +1,12 @@
+---
+title: "Uncertainty of low-degree space gravimetry observations: surface processes versus internal signal"
+date: 2022-08-01
+authors: "**Lecomte, H.**, Rosat, S., Mandea, M., Boy, J.-P. and Pfeffer, J."
+publication_types: "2"
+abstract: "Space gravity measurements have been mainly used to study the temporal mass variations at the Earth’s surface and within the mantle. Nevertheless, mass variations due to the Earth’s core might be observable in the variations of the gravity field as measured by GRACE and GRACE-FO satellites. Moreover, a possible correlation between the time-variable gravity and magnetic fields has been pointed out at inter-annual time scales. Earth's core dynamical processes inferred from geomagnetic field measurements are characterized by large-scale patterns associated with low spherical harmonic degrees of the potential fields. Studying Earth's core processes via gravity field observations involves the use of large spatial and inter-annual temporal filters. To access gravity variations related to the Earth's core, surface effects must be corrected, including hydrological, oceanic or atmospheric loading. This study estimates the uncertainty associated with gravity-field products and geophysical models used to minimise the surface process signatures in gravity field data. Here, we estimate the dispersion for GRACE solutions as about 0.34 cm of Equivalent Water Height (EWH) or 20% of the total signal. Uncertainty for hydrological models is as large as 0.89 to 2.10 cm of EWH. Loading products contain mostly different signals at inter-annuals time scales. We also show that a remaining hydrological signal in a very localized region can affect the low-degree components of the gravity field. The results presented here underline how challenging is to get new information about the dynamics of the Earth’s core via high-accuracy gravity data."
+publication: "Journal of Geophysical Research: Solid Earth"
+info: ", Preprint (submitted)"
+doi: "https://doi.org/10.1002/essoar.10512229.1"
+note: ""
+folder_name: "Lecomte2022"
+---

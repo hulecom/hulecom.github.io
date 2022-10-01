@@ -8,10 +8,10 @@ parser = argparse.ArgumentParser(
         """
 )
 parser.add_argument("--file","-f",
-    help="bibtex file")
+    help="bibtex file (ex: full path or content/.../citations.bib)")
 #-- working data directory
 parser.add_argument("--directory","-D",
-    help="Website directory for creating the file arborescence")
+    help="Website directory for creating the file arborescence (ex: publications/)")
 #-- output file
 parser.add_argument("--overwrite","-O",
     default=False, action="store_true",

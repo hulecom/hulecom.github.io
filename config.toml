@@ -18,6 +18,7 @@ googleAnalytics = "G-KMLQG0BLEW"
     highlight = true
     highlightStyle = "default"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+    keywords = "Geodesy, Time-varying Gravimetry, GRACE, Chrono-Geodesy"
     post = "PhD student at [ITES](https://ites.unistra.fr/), University of Strasbourg"
     address = "Address: 5 rue René Descartes, 67084 Strasbourg Cedex, France"
     mail = "[hlecomte (at) unistra.fr](mailto:hlecomte@unistra.fr)"
@@ -80,6 +81,11 @@ googleAnalytics = "G-KMLQG0BLEW"
     url = "https://twitter.com/HuLecomte/"
     name = "fab fa-twitter"
     weight = 5
+
+[[menu.icon]]
+    url = "https://orcid.org/0000-0002-7007-4748"
+    name = "fab fa-orcid"
+    weight = 6
 
 [markup.goldmark.renderer]
     unsafe= true

@@ -1,6 +1,3 @@
-Home: mettre une section keyword entre le titre et le contact
-Time-varying Gravimetry, Geodesy
-
 Pour la google ref sur les images: compresser image (sinon ca peut aussi casser sur github > 1Mo), add alt-text attribute to image
 page abstract avec image (voir sutterley)
 page abstract avec pdf pour les posters
@@ -8,7 +5,6 @@ page abstract avec pdf pour les posters
 Page presse avec l'article EOS dans recherche pour l'instant. A voir
 
 readme github (voir tyler)
-update researchgate
 
 
 Voir pour créer le site dispo en FR
