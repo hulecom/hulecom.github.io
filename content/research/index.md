@@ -9,6 +9,8 @@ date: "2021-12-26"
 
 # Media reports
 [Can NASA’s Gravity Satellites Detect Motions in Earth’s Core? by **Megan Kalomiris**](https://eos.org/articles/can-nasas-gravity-satellites-detect-motions-in-earths-core "Can NASA’s Gravity Satellites Detect Motions in Earth’s Core?")
+
+[Le cœur de la Terre s’est-il arrêté momentanément de battre ? by **Bruno D. Cot**](https://www.lexpress.fr/sciences-sante/le-coeur-de-la-terre-sest-il-arrete-momentanement-de-battre-PI5K52CMMBGMVMJNBOV6ZRJ44E/)
 <!---
 Now is the time for all good men to come to
 the aid of their country. This is just a
