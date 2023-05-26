@@ -5,6 +5,8 @@ date: "2021-12-26"
 # PhD
 ## Magnetic, gravimetric and geodetic constraints on the dynamics of the fluid core
 ### 2020-2023
+This thesis is part of the [GRACEFUL ERC project](https://graceful.oma.be/). Most of the software has been written in Python, based on Tyler Sutterly's code, and is available [online](https://github.com/hulecom/read-GRACE-harmonics).
+
 
 
 # Media reports
