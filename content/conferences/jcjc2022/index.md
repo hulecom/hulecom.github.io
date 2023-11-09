@@ -6,7 +6,7 @@ publication_types: "1"
 abstract: ""
 publication: "Journée CNES Jeunes Chercheurs"
 info: ""
-doi: "https://cnes-jc2.fr/programme/"
+doi: "https://cnes-jc2.fr/wp-content/uploads/JC2_Programme-221010.pdf"
 note: "(poster)"
 folder_name: "jcjc2022"
 ---

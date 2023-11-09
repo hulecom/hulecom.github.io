@@ -1,15 +1,25 @@
 ---
 title: "My Research"
-date: "2021-12-26"
+date: "2023-11-09"
 ---
-# PhD
+# <span style="color:red">Current employment</span>
+## Working for [LEGOS](https://www.legos.omp.eu/), Toulouse
+### 11/2023-11/2024
+Use of time-variable gravity field products from space gravimetry to study oceans and Earth's mass variation
+
+<br/>
+<br/>
+
+# <span style="color:darkgreen">PhD at ITES</span>
 ## Magnetic, gravimetric and geodetic constraints on the dynamics of the fluid core
-### 2020-2023
-This thesis is part of the [GRACEFUL ERC project](https://graceful.oma.be/). Most of the software has been written in Python, based on Tyler Sutterly's code, and is available [online](https://github.com/hulecom/read-GRACE-harmonics).
+### 11/2020-10/2023
+This thesis was part of the [GRACEFUL ERC project](https://graceful.oma.be/). Most of the software has been written in Python, based on Tyler Sutterly's code, and is available [online](https://github.com/hulecom/read-GRACE-harmonics).
 
+<br/>
+<br/>
+<br/>
 
-
-# Media reports
+# Contribution to media reports
 [Can NASA’s Gravity Satellites Detect Motions in Earth’s Core? by **Megan Kalomiris**](https://eos.org/articles/can-nasas-gravity-satellites-detect-motions-in-earths-core "Can NASA’s Gravity Satellites Detect Motions in Earth’s Core?")
 
 [Le cœur de la Terre s’est-il arrêté momentanément de battre ? by **Bruno D. Cot**](https://www.lexpress.fr/sciences-sante/le-coeur-de-la-terre-sest-il-arrete-momentanement-de-battre-PI5K52CMMBGMVMJNBOV6ZRJ44E/)
