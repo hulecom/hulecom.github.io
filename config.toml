@@ -21,7 +21,7 @@ googleAnalytics = "G-KMLQG0BLEW"
     keywords = "Geodesy, Time-varying Gravimetry, GRACE, Chrono-Geodesy"
     post = "Post-doc at [LEGOS](https://www.legos.omp.eu/en/), University of Toulouse"
     address = "Address: 14 Av. Edouard Belin, 31400 Toulouse"
-    mail = "[hugo.lecomte (at) univ-tlse3.fr](hugo.lecomte@univ-tlse3.fr)"
+    mail = "[hugo.lecomte (at) univ-tlse3.fr](mailto:hugo.lecomte@univ-tlse3.fr)"
 
 [[menu.main]]
     url = "/"
