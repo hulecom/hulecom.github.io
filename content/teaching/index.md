@@ -17,7 +17,7 @@ Practical work in **Python applied to geodesy** for *1st year engineering studen
 Teaching as an IGN engineer at ENSG
 -----------------
 
-### 2019-2023, [ENSG](https://www.ensg.eu/?lang=en)
+### 2019-2024, [ENSG](https://www.ensg.eu/?lang=en)
 
 Teaching **General introduction to geodetic systems** for *3rd year engineering students and Specialized Masters* ([PPMD](https://www.ensg.eu/Academic-Programs-MS-PPMD))\
 Coaching of computer **programming projects** for *3rd year engineering students and Specialized Masters*\
