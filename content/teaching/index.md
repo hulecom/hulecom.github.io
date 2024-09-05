@@ -8,9 +8,9 @@ Introduction courses for master students
 
 ### 2024, [EUR TESS](https://tess.omp.eu/)
 
-Geodetic reference systems\
-Satellite gravimetry\
-TD: geodetic time series analysis
+**Geodetic reference systems**\
+**Satellite gravimetry**\
+TD: **geodetic time series analysis**
 
 
 PhD additional education missions
@@ -34,4 +34,4 @@ Coaching of computer **programming projects** for *3rd year engineering students
 
 ### 2019-2024, [ENSG, PPMD](https://ensg.eu/fr/filiere-ppmd)
 
-Teaching **General introduction to geodetic systems** for *3rd year engineering students and Specialized Masters* \
+Teaching **General introduction to geodetic systems** for *3rd year engineering students and Specialized Masters*
