@@ -6,6 +6,10 @@ theme = "minimal"
 disqusShortname = "hulecom" # delete this to disable disqus comments
 googleAnalytics = "G-KMLQG0BLEW"
 
+[services]
+  [services.googleAnalytics]
+    ID = 'G-KMLQG0BLEW'
+
 [params]
     author = "Hugo Lecomte"
     description = "Personal Research page"
