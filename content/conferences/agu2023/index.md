@@ -1,0 +1,12 @@
+---
+title: "Comparison of Gap-Filling Temporal Methods to Improve GRACE and GRACE-FO Time Series"
+date: 2023-12-01
+authors: "**Lecomte, H.**, Rosat, S. and Mandea, M."
+publication_types: "1"
+abstract: " The GRACE and GRACE Follow-On missions are separated by an 11-month gap between 2017 and 2018 and also contain 22 missing months. The continuity of the gravity measurement at the end of the GRACE Follow-On mission is also still uncertain. These gaps in the time series of gravity field measurements lead to a difficult recovery of gravity variation signals with a pluri-annual temporal scale. In this context, several studies proposed machine learning approaches and decomposition techniques to predict gravity measurements over these missing months.\n\n This study summarizes the different approaches for the gap-filling proposed in the literature and compares their results. Some gap-filling solutions use an extrapolation of the GRACE products while some others propose to use Swarm or Satellite Laser Ranging gravity field products to replace the missing data. We tested several methods for their capacity to predict signals on monthly or annual periods, randomly chosen between 2005 and 2010, and the Root-Mean Square (RMS) over the ocean to qualify their noise. The RMS Error between the predictions and the original solution is used to estimate the uncertainty associated with each method.\n\n We show that simple methods like < Constant, Trend, Annual and Semi-annual fit > do not deliver the complexity of the original signal but deliver good results with regards to their prediction ability. We finally conclude that the Singular Spectrum Analysis (SSA) and Multivariate SSA produce the best results at large spatial scales based on our tests."
+publication: "AGU Fall Meeting 2023"
+info: ""
+doi: "https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1386940"
+note: "(IPoster)"
+folder_name: "agu2023"
+---

@@ -4,7 +4,6 @@ defaultContentLanguage = "en-us"
 title = "Hugo Lecomte"
 theme = "minimal"
 disqusShortname = "hulecom" # delete this to disable disqus comments
-googleAnalytics = "G-KMLQG0BLEW"
 
 [services]
   [services.googleAnalytics]
