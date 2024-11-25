@@ -6,7 +6,7 @@ date: "2024-09-01"
 Introduction courses for master students
 ----------------------------------------
 
-### 2024, [EUR TESS](https://tess.omp.eu/)
+### 2024-2025, [EUR TESS](https://tess.omp.eu/)
 
 **Geodetic reference systems**\
 **Satellite gravimetry**\

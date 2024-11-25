@@ -1,18 +1,20 @@
 import argparse
 import os
 
-#-- command line parameters
-#-- Read the system arguments listed after the program
+# python create_academic.py -f /home/hugolecomte/Bureau/hulecom.github.io/content/conferences/citations.bib -D conferences/ -O
+
+# -- command line parameters
+# -- Read the system arguments listed after the program
 parser = argparse.ArgumentParser(
     description="""Read a bibtex file to create website architecture for Hugo website
         """
 )
 parser.add_argument("--file","-f",
     help="bibtex file (ex: full path or content/.../citations.bib)")
-#-- working data directory
+# -- working data directory
 parser.add_argument("--directory","-D",
     help="Website directory for creating the file arborescence (ex: publications/)")
-#-- output file
+# -- output file
 parser.add_argument("--overwrite","-O",
     default=False, action="store_true",
     help="Overwrite existing files")

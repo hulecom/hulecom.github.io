@@ -19,6 +19,11 @@ This thesis was part of the [GRACEFUL ERC project](https://graceful.oma.be/). Mo
 <br/>
 <br/>
 
+# Participation to vulgarisation movies
+['Geoscience Connections' documentary by **Katia Pinheiro**](https://youtu.be/Tew6m4g5gg4?si=REOe-9vFbTHhw0IT)
+
+<br/>
+
 # Contribution to media reports
 [Can NASA’s Gravity Satellites Detect Motions in Earth’s Core? by **Megan Kalomiris**](https://eos.org/articles/can-nasas-gravity-satellites-detect-motions-in-earths-core "Can NASA’s Gravity Satellites Detect Motions in Earth’s Core?")
 
