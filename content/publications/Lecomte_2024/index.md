@@ -1,5 +1,5 @@
 ---
-title: "Gap Filling betwee"
+title: "Gap Filling between GRACE and GRACE-FO Missions: Assessment of Interpolation Techniques"
 date: 2024-11-01
 authors: "**Lecomte, H.**, Rosat, S. and Mandea, M."
 publication_types: "2"

@@ -30,8 +30,8 @@ with open(args.file, "r") as file:
         lines = article.split("\n")
         folder_name = lines[0].split("{")[1][:-1]
 
-        if not(os.path.isdir(os.path.join("content", args.directory, folder_name))):
-             os.mkdir(os.path.join("content", args.directory, folder_name))
+        if not os.path.isdir(os.path.join("content", args.directory, folder_name)):
+            os.mkdir(os.path.join("content", args.directory, folder_name))
 
         with open(os.path.join("content", args.directory, folder_name, folder_name+".bib"), "w") as file:
             file.writelines(article)
@@ -49,7 +49,6 @@ with open(args.file, "r") as file:
                 if info in line.split("=")[0]:
                     dic[info] = line.split("{")[1][:-2]
                     break
-
 
         dic["date"] = dic["year"] + "-" + dic["month"] + "-01"
         list_author = [i.split(', ') for i in dic["author"].split(' and ')]

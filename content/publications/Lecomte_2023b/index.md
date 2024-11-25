@@ -1,5 +1,5 @@
 ---
-title: "Gravitationa"
+title: "Gravitational Constraints on the Earth's Inner Core Differential Rotation"
 date: 2023-12-01
 authors: "**Lecomte, H.**, Rosat, S., Mandea, M. and Dumberry, M."
 publication_types: "2"
