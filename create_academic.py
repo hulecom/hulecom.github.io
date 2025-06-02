@@ -9,16 +9,16 @@ parser = argparse.ArgumentParser(
     description="""Read a bibtex file to create website architecture for Hugo website
         """
 )
-parser.add_argument("--file","-f",
-    help="bibtex file (ex: full path or content/.../citations.bib)")
+parser.add_argument("--file", "-f",
+                    help="bibtex file (ex: full path or content/.../citations.bib)")
 # -- working data directory
-parser.add_argument("--directory","-D",
-    help="Website directory for creating the file arborescence (ex: publications/)")
+parser.add_argument("--directory", "-D",
+                    help="Website directory for creating the file arborescence (ex: publications/)")
 # -- output file
-parser.add_argument("--overwrite","-O",
-    default=False, action="store_true",
-    help="Overwrite existing files")
-args,_ = parser.parse_known_args()
+parser.add_argument("--overwrite", "-O",
+                    default=False, action="store_true",
+                    help="Overwrite existing files")
+args, _ = parser.parse_known_args()
 
 listtoread = ["title", "year", "month", "author", "booktitle", "journal", "volume", "pages", "url", "abstract", "note"]
 
@@ -28,13 +28,16 @@ with open(args.file, "r") as file:
 
     for article in articles:
         lines = article.split("\n")
+        if '%' in lines[0]:
+            continue
+
         folder_name = lines[0].split("{")[1][:-1]
 
         if not os.path.isdir(os.path.join("content", args.directory, folder_name)):
             os.mkdir(os.path.join("content", args.directory, folder_name))
 
-        with open(os.path.join("content", args.directory, folder_name, folder_name+".bib"), "w") as file:
-            file.writelines(article)
+        with open(os.path.join("content", args.directory, folder_name, folder_name+".bib"), "w") as f:
+            f.writelines(article)
 
         dic = {}
         for info in listtoread:
@@ -58,7 +61,7 @@ with open(args.file, "r") as file:
                 list_author[i][1] = prenom[0][0] + ".-" + prenom[1][0] + "."
             else:
                 list_author[i][1] = list_author[i][1][0] + "."
-        list_author = [i[0] + ', ' + i[1]  for i in list_author]
+        list_author = [i[0] + ', ' + i[1] for i in list_author]
         list_author[list_author.index("Lecomte, H.")] = '**' + list_author[list_author.index("Lecomte, H.")] + '**'
         dic["authors"] = ', '.join(list_author[:-1]) + ' and ' + list_author[-1]
         if dic["journal"]:
@@ -73,10 +76,10 @@ with open(args.file, "r") as file:
         else:
             dic["info"] = ''
 
-        if not(os.path.isdir(os.path.join("content", args.directory, folder_name))):
+        if not os.path.isdir(os.path.join("content", args.directory, folder_name)):
             os.mkdir(os.path.join("content", args.directory, folder_name))
 
-        if args.overwrite or not(os.path.isfile(os.path.join("content", args.directory, "index.md"))):
+        if args.overwrite or not os.path.isfile(os.path.join("content", args.directory, "index.md")):
             text = '---\n'
             text += 'title: "' + dic["title"] + '"\n'
             text += 'date: ' + dic["date"] + '\n'
@@ -87,7 +90,7 @@ with open(args.file, "r") as file:
             text += 'info: "' + dic["info"] + '"\n'
             text += 'doi: "' + dic["url"] + '"\n'
             text += 'note: "' + dic["note"] + '"\n'
-            text += 'folder_name: "' + folder_name +'"\n'
+            text += 'folder_name: "' + folder_name + '"\n'
             text += '---'
 
             with open(os.path.join("content", args.directory, folder_name, "index.md"), "w") as file:
