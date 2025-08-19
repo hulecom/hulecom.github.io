@@ -22,9 +22,9 @@ disqusShortname = "hulecom" # delete this to disable disqus comments
     highlightStyle = "default"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
     keywords = "Geodesy, Time-varying Gravimetry, GRACE, Chrono-Geodesy"
-    post = "Post-doc at [LEGOS](https://www.legos.omp.eu/en/), University of Toulouse"
-    address = "Address: 14 Av. Edouard Belin, 31400 Toulouse"
-    mail = "[hugo.lecomte (at) univ-tlse3.fr](mailto:hugo.lecomte@univ-tlse3.fr)"
+    post = "Senior research scientist at [FGI](https://www.maanmittauslaitos.fi/en/research), National Land Survey of Finland"
+    address = "Address: Vuorimiehentie 5, 02150 Espoo, Finland"
+    mail = "[hugo.lecomte (at) maanmittauslaitos.fi](mailto:hugo.lecomte@maanmittauslaitos.fi)"
 
 [[menu.main]]
     url = "/"
@@ -61,7 +61,7 @@ disqusShortname = "hulecom" # delete this to disable disqus comments
 # The list of available icons can be found at http://fontawesome.io/icons.
 
 [[menu.icon]]
-    url = "mailto:hugo.lecomte@univ-tlse3.fr"
+    url = "mailto:hugo.lecomte@maanmittauslaitos.fi"
     name = "fas fa-envelope"
     weight = 1
 
@@ -79,11 +79,6 @@ disqusShortname = "hulecom" # delete this to disable disqus comments
     url = "https://www.researchgate.net/profile/Hugo_Lecomte2"
     name = "fab fa-researchgate"
     weight = 4
-
-[[menu.icon]]
-    url = "https://twitter.com/HuLecomte/"
-    name = "fab fa-twitter"
-    weight = 5
 
 [[menu.icon]]
     url = "https://orcid.org/0000-0002-7007-4748"

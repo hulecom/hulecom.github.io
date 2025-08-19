@@ -3,8 +3,13 @@ title: "My Research"
 date: "2023-11-09"
 ---
 # <span style="color:red">Current employment</span>
-## Working for [LEGOS](https://www.legos.omp.eu/), Toulouse
-### 11/2023-11/2024
+## Working for [FGI](https://www.maanmittauslaitos.fi/en/research), Espoo
+### 08/2025-08/2028
+Integrating optical atomic clock measurements into Finland’s vertical reference frame
+
+# Past employment
+## Worked for [LEGOS](https://www.legos.omp.eu/), Toulouse
+### 11/2023-06/2025
 Use of time-variable gravity field products from space gravimetry to study oceans and Earth's mass variation
 
 <br/>

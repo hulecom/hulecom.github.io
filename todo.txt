@@ -4,8 +4,6 @@ page abstract avec pdf pour les posters
 
 Page presse avec l'article EOS dans recherche pour l'instant. A voir
 
-readme github (voir tyler)
-
 
 Voir pour créer le site dispo en FR
 https://gohugo.io/content-management/multilingual/
