@@ -1,0 +1,12 @@
+---
+title: "Leakage Corrections for GRACE Level-3 Solutions and Associated Induced Uncertainties in Manometric Sea Level Estimation"
+date: 2026-04-01
+authors: "**Lecomte, H.**, Blazquez, A., Fourest, S., Meyssignac, B., Pfeffer, J., Boughanemi, A. and Pellereau, E."
+publication_types: "2"
+abstract: "Spatial leakage remains a major source of uncertainty in GRACE and GRACE-FO time-variable gravity solutions, particularly when estimating manometric sea level in coastal regions. We present a refined leakage correction method integrated into a Level-2 to Level-3 processing framework based on spherical harmonics solutions. The leakage correction iteratively estimates the mean local ocean signal unaffected by leakage to estimate the coastal signal. The approach mitigates filtering-induced aliasing in coastal sea-level signals while preserving consistency with expected geophysical variations. The leakage correction is applied in the processing chain, following low-degree corrections, DDK filtering, corrections for GIA and earthquake events, within an ensemble-based framework. Comparative analysis with existing leakage correction methodologies highlights differences in coastal sea-level behavior, while the ensemble logic enables quantification of uncertainties induced by leakage correction. Applied to the CNES Level-3 ensemble solution, the refined leakage correction increases the global barystatic sea-level trend estimated between 2005 to 2015 from 1.50 mm.yr⁻¹ (no correction) to 2.09–2.20 mm.yr⁻¹ for the regional mean-ocean, and local iterative methods, in agreement with the JPL mascon + CRI estimate (2.05 mm.yr⁻¹) and the altimetry-minus-thermosteric benchmark (1.99 mm.yr⁻¹). Ensemble analysis indicates a global trend uncertainty of the global trend uncertainties is 0.22 mm.yr⁻¹, with leakage correction contributing the largest share (0.17 mm.yr⁻¹). Accurate leakage correction plays a critical role in reducing uncertainties in coastal sea level estimates and improving the consistency with independent observations of the global ocean. These advances thereby reinforce GRACE and GRACE-FO as essential tools for closing the global sea-level budget and improving the geodetic estimates of the thermosteric component"
+publication: "International Association of Geodesy Symposia"
+info: ""
+doi: "https://doi.org/10.1007/1345_2026_319"
+note: ""
+folder_name: "Lecomte2026"
+---

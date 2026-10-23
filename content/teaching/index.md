@@ -1,7 +1,15 @@
 ---
 title: "Teaching"
-date: "2024-09-01"
+date: "2026-10-23"
 ---
+
+GNSS courses for master students
+----------------------------------------
+
+### 2026, [Helsingin Yliopisto](https://studies.helsinki.fi/courses/course-unit/otm-5f9195fb-8227-4329-8604-396974984509)
+
+**Satellite positioning**\
+TD: **GNSS time series analysis**
 
 Introduction courses for master students
 ----------------------------------------

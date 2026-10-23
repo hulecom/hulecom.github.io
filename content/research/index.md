@@ -1,6 +1,6 @@
 ---
 title: "My Research"
-date: "2023-11-09"
+date: "2026-10-09"
 ---
 # <span style="color:red">Current employment</span>
 ## Working for [FGI](https://www.maanmittauslaitos.fi/en/research), Espoo

@@ -1,0 +1,12 @@
+---
+title: "Uncertainties of GRACE/GRACE-FO Satellite Gravimetry Data and Thereof Derived Products"
+date: 2026-09-01
+authors: "Jäggi, A., Güntner, A., Meyer, U., Blazquez, A., Soja, B., Flechtner, F., Landerer, F., Dahle, C., McCullough, C., Bandikova, T., Mayer-Gürr, T., Ohlinger, F., Dobslaw, H., Boergens, E., Gou, J., Pail, R., **Lecomte, H.**, Wiese, D., Lasser, M. and Sharifi, E."
+publication_types: "2"
+abstract: "Inter-satellite ranging by space gravimetry missions, such as from the Gravity Recovery And Climate Experiment (GRACE) mission and its successor mission GRACE Follow-On, has been established to observe mass variations in the Earth system from space globally. A complex processing chain is needed to invert the instrument data (Level-1) of space gravimetry missions into global gravity field products, either represented as a spherical harmonic series expansion (Level-2) or further processed gridded products dedicated to use for various scientific applications (Level-3), and combine them with products from other remote sensing satellite missions or assimilate them into geophysical process models (Level-4). The complexity arises from the need to use multiple background models and apply numerous corrections. Consequently, providing uncertainties for the various products is challenging. Not only is inter-satellite ranging data needed in this processing chain, but also other satellite observations, such as GPS, and geophysical background models, e.g., for de-aliasing of high-frequency signals or signal separation in the Level-3 data sets. These observations and model data sets are contributing with their specific uncertainties to the overall uncertainty budget of the final gravity fields. As long as the uncertainties of the models cannot be fully accounted for, a formal uncertainty propagation remains insufficient. Thus, an empirical error assessment remains the only reliable way of uncertainty assessment at the moment. Finally, a further source of error is signal leakage, which is related to the signal attenuation at satellite altitude and may be aggravated by spatial filtering of the Level-3 products. A comprehensive review of the current status of the uncertainty modeling of mass variation products through the whole processing chain is missing and thus is addressed in this article"
+publication: "Surveys in Geophysics"
+info: ""
+doi: "https://doi.org/10.1007/s10712-026-09959-2"
+note: ""
+folder_name: "Jaggi_2026"
+---

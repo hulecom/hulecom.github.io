@@ -63,7 +63,10 @@ with open(args.file, "r") as file:
                 list_author[i][1] = list_author[i][1][0] + "."
         list_author = [i[0] + ', ' + i[1] for i in list_author]
         list_author[list_author.index("Lecomte, H.")] = '**' + list_author[list_author.index("Lecomte, H.")] + '**'
-        dic["authors"] = ', '.join(list_author[:-1]) + ' and ' + list_author[-1]
+        if len(list_author) > 1:
+            dic["authors"] = ', '.join(list_author[:-1]) + ' and ' + list_author[-1]
+        else:
+            dic["authors"] = list_author[0]
         if dic["journal"]:
             dic["booktitle"] = dic["journal"]
 

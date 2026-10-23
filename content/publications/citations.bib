@@ -42,3 +42,42 @@
   url = {https://doi.org/10.1007/s00190-024-01917-3},
   abstract = {We propose a benchmark for comparing gap-filling techniques used on global time-variable gravity field time-series. The Gravity Recovery and Climate Experiment (GRACE) and the GRACE Follow-On missions provide products to study the Earth’s time-variable gravity field. However, the presence of missing months in the measurements poses challenges for understanding specific Earth processes through the gravity field. We reproduce, adapt, and compare satellite-monitoring and interpolation techniques for filling these missing months in GRACE and GRACE Follow-On products on a global scale. Satellite-monitoring techniques utilize solutions from Swarm and satellite laser ranging, while interpolation techniques rely on GRACE and/or Swarm solutions. We assess a wide range of interpolation techniques, including least-squares fitting, principal component analysis, singular spectrum analysis, multichannel singular spectrum analysis, auto-regressive models, and the incorporation of prior data in these techniques. To inter-compare these techniques, we employ a remove-and-restore approach, removing existing GRACE products and predicting missing months using interpolation techniques. We provide detailed comparisons of the techniques and discuss their strengths and limitations. The auto-regressive interpolation technique delivers the best score according to our evaluation metric. The interpolation based on a least-squares fitting of constant, trend, annual, and semi-annual cycles offers a simple and effective prediction with a good score. Through this assessment, we establish a starting benchmark for gap-filling techniques in Earth’s time-variable gravity field analysis.}
 }
+
+@article{Lecomte2025,
+  title = {Lenapy: Enhancing Xarray for Multidimensional Geophysical Data Analysis},
+  shorttitle = {Lenapy},
+  author = {Lecomte, Hugo and Fourest, Sebastien and Blazquez, Alejandro},
+  year = {2025},
+  month = {12},
+  journal = {Journal of Open Source Software},
+  volume = {10},
+  number = {116},
+  pages = {9189},
+  issn = {2475-9066},
+  doi = {10.21105/joss.09189},
+  url = {https://doi.org/10.21105/joss.09189},
+}
+
+@article{Lecomte2026,
+  title = {Leakage Corrections for GRACE Level-3 Solutions and Associated Induced Uncertainties in Manometric Sea Level Estimation},
+  author = {Lecomte, Hugo and Blazquez, Alejandro and Fourest, Sébastien and Meyssignac, Benoit and Pfeffer, Julia and Boughanemi, Alexandre and Pellereau, Eric},
+  publisher = {Springer},
+  journal = {International Association of Geodesy Symposia},
+  year = {2026},
+  month = {04},
+  doi = {10.1007/1345_2026_319},
+  url = {https://doi.org/10.1007/1345_2026_319},
+  abstract = {Spatial leakage remains a major source of uncertainty in GRACE and GRACE-FO time-variable gravity solutions, particularly when estimating manometric sea level in coastal regions. We present a refined leakage correction method integrated into a Level-2 to Level-3 processing framework based on spherical harmonics solutions. The leakage correction iteratively estimates the mean local ocean signal unaffected by leakage to estimate the coastal signal. The approach mitigates filtering-induced aliasing in coastal sea-level signals while preserving consistency with expected geophysical variations. The leakage correction is applied in the processing chain, following low-degree corrections, DDK filtering, corrections for GIA and earthquake events, within an ensemble-based framework. Comparative analysis with existing leakage correction methodologies highlights differences in coastal sea-level behavior, while the ensemble logic enables quantification of uncertainties induced by leakage correction. Applied to the CNES Level-3 ensemble solution, the refined leakage correction increases the global barystatic sea-level trend estimated between 2005 to 2015 from 1.50 mm.yr⁻¹ (no correction) to 2.09–2.20 mm.yr⁻¹ for the regional mean-ocean, and local iterative methods, in agreement with the JPL mascon + CRI estimate (2.05 mm.yr⁻¹) and the altimetry-minus-thermosteric benchmark (1.99 mm.yr⁻¹). Ensemble analysis indicates a global trend uncertainty of the global trend uncertainties is 0.22 mm.yr⁻¹, with leakage correction contributing the largest share (0.17 mm.yr⁻¹). Accurate leakage correction plays a critical role in reducing uncertainties in coastal sea level estimates and improving the consistency with independent observations of the global ocean. These advances thereby reinforce GRACE and GRACE-FO as essential tools for closing the global sea-level budget and improving the geodetic estimates of the thermosteric component.}
+}
+
+@article{Jaggi_2026,
+  title = {Uncertainties of GRACE/GRACE-FO Satellite Gravimetry Data and Thereof Derived Products},
+  author = {Jäggi, Adrian and Güntner, Andreas and Meyer, Ulrich and Blazquez, Alejandro and Soja, Benedikt and Flechtner, Frank and Landerer, Felix and Dahle, Christoph and McCullough, Christopher and Bandikova, Tamara and Mayer-Gürr, Torsten and Ohlinger, Felix and Dobslaw, Henryk and Boergens, Eva and Gou, Junyang and Pail, Roland and Lecomte, Hugo and Wiese, David and Lasser, Martin and Sharifi, Ehsan},
+  year = {2026},
+  month = {09},
+  journal = {Surveys in Geophysics},
+  issn = {1573-0956},
+  doi = {10.1007/s10712-026-09959-2},
+  url = {https://doi.org/10.1007/s10712-026-09959-2},
+  abstract = {Inter-satellite ranging by space gravimetry missions, such as from the Gravity Recovery And Climate Experiment (GRACE) mission and its successor mission GRACE Follow-On, has been established to observe mass variations in the Earth system from space globally. A complex processing chain is needed to invert the instrument data (Level-1) of space gravimetry missions into global gravity field products, either represented as a spherical harmonic series expansion (Level-2) or further processed gridded products dedicated to use for various scientific applications (Level-3), and combine them with products from other remote sensing satellite missions or assimilate them into geophysical process models (Level-4). The complexity arises from the need to use multiple background models and apply numerous corrections. Consequently, providing uncertainties for the various products is challenging. Not only is inter-satellite ranging data needed in this processing chain, but also other satellite observations, such as GPS, and geophysical background models, e.g., for de-aliasing of high-frequency signals or signal separation in the Level-3 data sets. These observations and model data sets are contributing with their specific uncertainties to the overall uncertainty budget of the final gravity fields. As long as the uncertainties of the models cannot be fully accounted for, a formal uncertainty propagation remains insufficient. Thus, an empirical error assessment remains the only reliable way of uncertainty assessment at the moment. Finally, a further source of error is signal leakage, which is related to the signal attenuation at satellite altitude and may be aggravated by spatial filtering of the Level-3 products. A comprehensive review of the current status of the uncertainty modeling of mass variation products through the whole processing chain is missing and thus is addressed in this article.}
+}

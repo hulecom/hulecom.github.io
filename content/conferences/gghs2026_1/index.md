@@ -1,0 +1,12 @@
+---
+title: "Finnish Regional Chrono-Geoid Determination Using Least-Squares Collocation"
+date: 2026-10-01
+authors: "**Lecomte, H.**, Bilker-Koivula, M. and Lion, G."
+publication_types: "1"
+abstract: "Chronometric geodesy exploits the gravitational redshift of optical atomic clocks to measure gravity potential differences at fractional frequency levels approaching 10⁻¹⁸, corresponding to a geopotential height measurement of approximately one centimetre. Combined with terrestrial gravimetry, clock-based observations offer a constraint on the long-wavelength components of the gravity field for geoid determination. It complements classical geodetic techniques for vertical reference frame determination.\nWe investigate the integration of synthetic clock-based measurements of potential differences into regional geoid estimation over Finland using Least-Squares Collocation (LSC). We assess the performance of LSC under two contrasting landforms: a flat region representative of southern Finland, and a region with stronger relief in the north. This two-domain design is motivated by the known limitations of classical LSC implementations, which rely on a single stationary and isotropic covariance structure. We follow a simulation-based approach in which a high-resolution synthetic reference gravity field is constructed from a global geopotential model complemented by local data. Synthetic observations of gravity disturbances and clock potential differences are sampled at realistic locations with instrument-consistent noise, and the disturbing potential is recovered via LSC within a remove-compute-restore framework. Results are compared against the existing simulations in literature"
+publication: "Gravity, Geoid and Height Systems 2026 Symposium"
+info: ""
+doi: ""
+note: ""
+folder_name: "gghs2026_1"
+---
